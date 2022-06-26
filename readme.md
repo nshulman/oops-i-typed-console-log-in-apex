@@ -4,6 +4,9 @@ Are you like me and work with JavaScript so much that you start typing Console.l
 
 Here's something you can Execute Anonymous to test:
 
+### Installing
+Add the [Console.log Class](https://github.com/nshulman/i-can-t-stop-typing-console-log-in-apex/blob/main/Console.cls) to your org your favorite way.
+
 ### Sample Code
 ```java
 List<Account> alist = new List<Account>();
