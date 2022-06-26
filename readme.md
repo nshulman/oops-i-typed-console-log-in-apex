@@ -31,4 +31,4 @@ Console.log('My Accounts', a1, a2, alist);
 ```
 
 
-There is something I need to tell you.  Apex methods support only a specific number of arguments, so I made it to support a max of 4 objects separated by commas.  If you think you'll need to put more objects in your debug code, you'll need to make more overloads with more values.  But it should be pretty easy.
+Note: Apex methods support only a specific number of arguments, so I made it to support a max of 4 objects separated by commas.  If you think you'll need to put more objects in your debug code, you'll need to make more overloads with more values.  But it should be pretty easy.
