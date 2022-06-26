@@ -1,6 +1,6 @@
 ## Oops, I Typed Console.log in Apex again!
 
-Are you like me and work with JavaScript so much that you type Console.log in Apex code against your will?  If you said yes, then this is the Apex class for you.  Do you also use comma delimited values in JS because it's easy and looks better in your console? For example, `Console.log('AccountInfo', acct1, acct2)`
+Are you like me and work with JavaScript so much that you type Console.log in Apex code against your will?  If you said yes, then this is the Apex class for you.  Do you also use comma delimited values in JS, e.g. `Console.log('AccountInfo', acct1, acct2)` because it's easy and looks better in your console? 
 
 This Apex class adds Console.log to your org so you never have to think about it again.  Each comma delimited object you pass in (up to 4*) will get its own debug line with indentation to show grouping.
 
