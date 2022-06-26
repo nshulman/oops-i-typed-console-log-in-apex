@@ -3,7 +3,7 @@
 Are you like me and work with JavaScript so much that you start typing Console.log in your Apex code against your will?  If you said yes, then this is the Apex class for you.  Do you also use commas when you log in JavaScript since they look so nice in your browser (for example `Console.log('AccountInfo', acct1, acct2)`)?  Great, keep reading.  This class adds Console.log to Apex, and you never have to think about it again.  Each object you pass in will get its own debug line with indentation to show grouping.
 
 ### Installing
-Add the [Console.log Class](https://github.com/nshulman/oops-i-typed-console-log-in-apex/blob/main/Console.cls) to your org your favorite way.
+Add the [Console Class](https://github.com/nshulman/oops-i-typed-console-log-in-apex/blob/main/Console.cls) to your org your favorite way.
 
 ### Usage
 Here's some sample code you can Execute Anonymous to test:
