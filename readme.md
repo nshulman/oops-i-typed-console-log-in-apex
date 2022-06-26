@@ -16,7 +16,7 @@ Account a2 = new Account();
 a2.Name = 'test113';
 alist.add(a2);
 
-Console.log(a1,a2,new Set<Account>{a1,a2}, aList); // Will result in System.Debug in your 
+Console.log(a1,a2,new Set<Account>{a1,a2}, aList);
 ```
 
 ### Sample Apex Debug Log Output (from Dev Console with Debug Only checked)
