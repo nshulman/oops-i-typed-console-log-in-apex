@@ -19,15 +19,15 @@ Account a2 = new Account();
 a2.Name = 'test113';
 alist.add(a2);
 
-Console.log(a1, a2, new Set<Account>{a1,a2}, alist);
+Console.log('My Accounts', a1, a2, alist);
 ```
 
 ### Sample Apex Debug Log Output (from Dev Console with Debug Only checked)
 ```
-21:21:40:042 USER_DEBUG [22]|DEBUG|Account:{Name=test112}
-21:21:40:044 USER_DEBUG [22]|DEBUG|↳Account:{Name=test113}
-21:21:40:044 USER_DEBUG [22]|DEBUG|↳{Account:{Name=test112}, Account:{Name=test113}}
-21:21:40:045 USER_DEBUG [22]|DEBUG|↳(Account:{Name=test112}, Account:{Name=test113})
+21:58:48:006 USER_DEBUG [22]|DEBUG|My Accounts
+21:58:48:007 USER_DEBUG [22]|DEBUG|↳Account:{Name=test112}
+21:58:48:007 USER_DEBUG [22]|DEBUG|↳Account:{Name=test113}
+21:58:48:007 USER_DEBUG [22]|DEBUG|↳(Account:{Name=test112}, Account:{Name=test113})
 ```
 
 
