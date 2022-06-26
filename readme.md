@@ -1,4 +1,4 @@
-##I Can't Stop Typing Console Log in Apex!
+## I Can't Stop Typing Console Log in Apex!
 
 Are you like me and have been working with JavaScript so much that you start typing Console.log in your Apex code?  If you said yes, then this is the class for you.  Do you also use commas when you log in JavaScript since they look so nice in your browser (for example `Console.log('AccountInfo', acct1, acct2)`)?  Great.  Just install this class in all your orgs, and never think about it again.
 
